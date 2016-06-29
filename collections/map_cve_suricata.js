@@ -1,5 +1,5 @@
-cve_cwe = new Mongo.Collection("cve_cwe");
-cve_cwe.allow({
+map_cve_surikata = new Mongo.Collection("map_cve_surikata");
+map_cve_surikata.allow({
   insert: function(){
     return false;
   },

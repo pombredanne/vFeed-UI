@@ -1,5 +1,5 @@
-cve_cwe = new Mongo.Collection("cve_cwe");
-cve_cwe.allow({
+map_redhat_bugzilla = new Mongo.Collection("map_redhat_bugzilla");
+map_redhat_bugzilla.allow({
   insert: function(){
     return false;
   },

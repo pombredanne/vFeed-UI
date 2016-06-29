@@ -1,5 +1,5 @@
-cve_cwe = new Mongo.Collection("cve_cwe");
-cve_cwe.allow({
+map_cve_iavm = new Mongo.Collection("map_cve_iavm");
+map_cve_iavm.allow({
   insert: function(){
     return false;
   },

@@ -1,5 +1,5 @@
-cve_cwe = new Mongo.Collection("cve_cwe");
-cve_cwe.allow({
+cwe_capec = new Mongo.Collection("cwe_capec");
+cwe_capec.allow({
   insert: function(){
     return false;
   },

@@ -1,5 +1,5 @@
-cve_cwe = new Mongo.Collection("cve_cwe");
-cve_cwe.allow({
+stat_new_cve = new Mongo.Collection("stat_new_cve");
+stat_new_cve.allow({
   insert: function(){
     return false;
   },

@@ -1,5 +1,5 @@
-cve_cwe = new Mongo.Collection("cve_cwe");
-cve_cwe.allow({
+map_cve_fedora = new Mongo.Collection("map_cve_fedora");
+map_cve_fedora.allow({
   insert: function(){
     return false;
   },

@@ -1,5 +1,5 @@
-cve_cwe = new Mongo.Collection("cve_cwe");
-cve_cwe.allow({
+cwe_category = new Mongo.Collection("cwe_category");
+cwe_category.allow({
   insert: function(){
     return false;
   },

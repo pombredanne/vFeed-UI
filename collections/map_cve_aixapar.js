@@ -1,5 +1,5 @@
-cve_cwe = new Mongo.Collection("cve_cwe");
-cve_cwe.allow({
+map_cve_aixapar = new Mongo.Collection("map_cve_aixapar");
+map_cve_aixapar.allow({
   insert: function(){
     return false;
   },

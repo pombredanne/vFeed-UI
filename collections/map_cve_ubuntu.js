@@ -1,5 +1,5 @@
-cve_cwe = new Mongo.Collection("cve_cwe");
-cve_cwe.allow({
+map_cve_ubuntu = new Mongo.Collection("map_cve_ubuntu");
+map_cve_ubuntu.allow({
   insert: function(){
     return false;
   },

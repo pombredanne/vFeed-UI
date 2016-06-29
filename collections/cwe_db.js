@@ -1,5 +1,5 @@
-cve_cwe = new Mongo.Collection("cve_cwe");
-cve_cwe.allow({
+cwe_db = new Mongo.Collection("cwe_db");
+cwe_db.allow({
   insert: function(){
     return false;
   },

@@ -1,5 +1,5 @@
-cve_cwe = new Mongo.Collection("cve_cwe");
-cve_cwe.allow({
+stat_vfeed_kpi = new Mongo.Collection("stat_vfeed_kpi");
+stat_vfeed_kpi.allow({
   insert: function(){
     return false;
   },

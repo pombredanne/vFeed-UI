@@ -2,7 +2,7 @@
   "name": "vFeed-UI",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "meteor": "MONGO_URL=mongodb://localhost:27017/vFeed meteor"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0"

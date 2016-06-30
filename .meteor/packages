@@ -21,3 +21,4 @@ twbs:bootstrap
 fortawesome:fontawesome
 ian:accounts-ui-bootstrap-3
 accounts-github
+iron:router
